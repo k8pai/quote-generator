@@ -1,7 +1,5 @@
-import { randomQoute } from '@/typings';
 import Image from 'next/image';
 import Quote from './components/Quote';
-import Filter from './components/Filter';
 import { fetchRandomQuote } from '@/lib';
 
 export default async function Home() {
